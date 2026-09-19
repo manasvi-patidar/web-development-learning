@@ -21,3 +21,10 @@ A personal learning workspace containing notes, practice code, exercises, and mi
 ## 🎯 Purpose
 
 This repository serves as a personal reference and archive of my web development learning journey, experiments, and practice implementations.
+
+> This is a learning archive rather than a production project. The code reflects different stages of my learning.
+
+## 🔒 Repository
+
+This repository is maintained as a **private learning archive**.
+
