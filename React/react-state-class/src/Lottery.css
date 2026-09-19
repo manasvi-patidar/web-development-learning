@@ -1,0 +1,43 @@
+/* Main Lottery Container */
+.lottery {
+  width: 360px;
+  margin: 40px auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Lottery Heading */
+.lottery-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Buy Ticket Button */
+.lottery-btn {
+  margin-top: 18px;
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Button Hover Effect */
+.lottery-btn:hover {
+  background-color: #0b5ed7;
+}
+
+/* Winning Message */
+.result {
+  margin-top: 18px;
+  color: green;
+  min-height: 24px;
+  font-size: 18px;
+}

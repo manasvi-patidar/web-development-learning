@@ -1,0 +1,10 @@
+span {
+    background-color: pink;
+    border: 2px solid black;
+    height: 100px;              
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*height and width not changed.padding and margin changed in left and right only.*/

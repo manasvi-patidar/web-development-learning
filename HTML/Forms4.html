@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox, Radio Button, Dropdown, Range and Text Area in HTML</title>
+</head>
+
+<body>
+    <form action="/server">
+        <!--Checkbox-->
+        <input type="checkbox" id="age" name="age">
+        <label for="age"> I am 18+ </label>
+        <!--Radio Button-->
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple" />
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango" />
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana" />
+            <label for="banana">banana</label>
+        </div>
+        <br>
+        <div>
+            Choose your subjects:
+            <input type="checkbox" id="maths" name="sub" value="math" />
+            <label for="maths"> maths </label>
+            <input type="checkbox" id="science" name="sub" value="sci" />
+            <label for="science"> science </label>
+            <input type="checkbox" id="english" name="sub" value="eng" />
+            <label for="english"> english </label>
+        </div>
+        <!--Dropdown-->
+        <div>
+            Choose your profession:
+            <select name="profession" id="profession">
+                <option>select your option</option>
+                <option value="stu">Student</option>
+                <option value="dev" selected>Developer</option>
+            </select>
+        </div>
+        <!--Range-->
+        <label for="vol">select your volume level : </label>
+        <input 
+             type="range" 
+             id="vol" 
+             min="0" 
+             max="100" 
+             name="vol" 
+             step="10" 
+             value="70" />
+        <br />
+        <label for="feedback">Please give your valuable feedback : </label>
+        <textarea 
+             id="feedback" 
+             name="feedback" 
+             placeholder="write your feedback here">
+            </textarea>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

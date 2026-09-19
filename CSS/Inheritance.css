@@ -1,0 +1,19 @@
+div {
+    background-color: antiquewhite;
+}
+
+/*form {
+    background-color: lightpink;
+}*/
+
+/*input {
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+}*/
+
+button:hover {
+    background-color: darksalmon;  /*login button*/
+}

@@ -1,0 +1,24 @@
+/* Ticket Container */
+.Ticket {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+/* Ticket Heading */
+.ticket-heading {
+  margin: 0 0 15px 0; /* Space below heading */
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Container for Ticket Numbers */
+.ticket-numbers {
+  display: flex; /* Place numbers in one row */
+  justify-content: center; /* Center them horizontally */
+  gap: 12px; /* Space between each number */
+  flex-wrap: wrap; /* Move to next line if needed */
+}

@@ -1,0 +1,41 @@
+import { useState, useEffect } from "react";
+
+export default function Joker() {
+  const [joke, setJoke] = useState({});
+  const URL = "https://official-joke-api.appspot.com/random_joke";
+
+  const getNewJoke = async () => {
+    const response = await fetch(URL);
+    const jsonResponse = await response.json();
+
+    setJoke({
+      setup: jsonResponse.setup,
+      punchline: jsonResponse.punchline,
+    });
+  };
+
+  useEffect(() => {
+    async function getFirstJoke() {
+      const response = await fetch(URL);
+      const jsonResponse = await response.json();
+
+      console.log(jsonResponse);
+
+      setJoke({
+        setup: jsonResponse.setup,
+        punchline: jsonResponse.punchline,
+      });
+    }
+
+    getFirstJoke();
+  }, []);
+
+  return (
+    <div>
+      <h3>Joker!</h3>
+      <h2>{joke.setup}</h2>
+      <h2>{joke.punchline}</h2>
+      <button onClick={getNewJoke}>New Joke</button>
+    </div>
+  );
+}

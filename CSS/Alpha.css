@@ -1,0 +1,19 @@
+#Alpha1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(211, 59, 59, 0.5);
+}
+
+#Alpha2 {
+    height: 200px;
+    width: 200px;
+    background-color: #55b32dff; /* ff means visible ; 00 means hidden */
+}
+
+#Opacity {
+    height: 200px;
+    width: 200px;
+    background-color: #f3f314;
+    opacity: 0.5;
+}
+
