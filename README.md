@@ -24,7 +24,6 @@ This repository serves as a personal reference and archive of my web development
 
 > This is a learning archive rather than a production project. The code reflects different stages of my learning.
 
-## 🔒 Repository
+## 🌐 Repository
 
-This repository is maintained as a **private learning archive**.
-
+This repository is publicly available as a learning archive documenting my web development journey, including notes, practice implementations, exercises, and mini-projects.
